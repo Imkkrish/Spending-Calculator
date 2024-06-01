@@ -69,6 +69,9 @@ class SpendingCalculator:
             filename = os.path.join("spending", f"{date}.json")
             with open(filename, "w") as file:
                 json.dump(data, file)
+    def view_balance(self):
+        print(f"Available balance: Rs {self.balance}")
+
 
 def record_spending(calculator):
     category = input("Enter expense category: ")
@@ -83,7 +86,8 @@ def main():
         print("2. Update Initial Balance")
         print("3. Delete All Spending Data")
         print("4. View All Expenses")
-        print("5. Exit")
+        print("5. Available  balance ")
+        print("6. Exit")
 
         choice = input("Enter your choice: ")
 
@@ -100,6 +104,8 @@ def main():
         elif choice == '4':
             calculator.view_all_expenses()
         elif choice == '5':
+            calculator.view_balance()
+        elif choice == '6':
             print("Exiting...")
             break
         else:
