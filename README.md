@@ -21,3 +21,9 @@ Spending Calculator is a Python application that helps you manage your expenses 
 2. **Create necessary directories**:
    ```sh
    mkdir spending
+   
+3. **Run the application**:
+   ```sh
+   python spending_calculator.py
+
+
