@@ -36,3 +36,30 @@ Upon running the application, you'll be prompted with the following menu:
 4. View All Expenses
 5. View Available Balance
 6. Exit
+```
+## Menu Options
+**Add Expense**:
+
+   -Enter the category of the expense.
+   -Enter the amount spent.
+   -The expense will be recorded, and your balance will be updated.
+   
+**Update Initial Balance**:
+
+   -Choose whether to completely change the initial balance or add a value to the remaining balance.
+   -Enter the new amount.
+   
+**Delete All Spending Data**:
+
+   -Deletes all recorded spending data from the spending directory.
+
+**View All Expenses**:
+
+   -Displays all recorded expenses grouped by date and category.
+
+**View Available Balance**:
+
+   -Displays the current available balance.
+**Exit**:
+
+   -Exits the application.
