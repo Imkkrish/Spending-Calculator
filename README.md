@@ -63,3 +63,13 @@ Upon running the application, you'll be prompted with the following menu:
 **Exit**:
 
    -Exits the application.
+
+##File Structure
+
+  -balance.json: Stores the current balance.
+  -spending/: Directory that contains JSON files, each representing a day's expenses.
+##License
+
+This project is open source and available under the MIT License.
+
+Feel free to modify the README file as necessary to suit your needs.
