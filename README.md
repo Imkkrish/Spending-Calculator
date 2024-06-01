@@ -29,7 +29,7 @@ Spending Calculator is a Python application that helps you manage your expenses 
 ## Usage
 
 Upon running the application, you'll be prompted with the following menu:
-
+```sql
 1. Add Expense
 2. Update Initial Balance
 3. Delete All Spending Data
