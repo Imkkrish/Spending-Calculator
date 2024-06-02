@@ -67,5 +67,6 @@ Upon running the application, you'll be prompted with the following menu:
 ## File Structure
 
   -balance.json: Stores the current balance.
+  
   -spending/: Directory that contains JSON files, each representing a day's expenses.
 
