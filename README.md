@@ -40,33 +40,33 @@ Upon running the application, you'll be prompted with the following menu:
 ## Menu Options
 **Add Expense**:
 
-   -Enter the category of the expense.
-   -Enter the amount spent.
-   -The expense will be recorded, and your balance will be updated.
+   - Enter the category of the expense.
+   - Enter the amount spent.
+   - The expense will be recorded, and your balance will be updated.
    
 **Update Initial Balance**:
 
-   -Choose whether to completely change the initial balance or add a value to the remaining balance.
-   -Enter the new amount.
+   - Choose whether to completely change the initial balance or add a value to the remaining balance.
+   - Enter the new amount.
    
 **Delete All Spending Data**:
 
-   -Deletes all recorded spending data from the spending directory.
+   - Deletes all recorded spending data from the spending directory.
 
 **View All Expenses**:
 
-   -Displays all recorded expenses grouped by date and category.
+   - Displays all recorded expenses grouped by date and category.
 
 **View Available Balance**:
 
-   -Displays the current available balance.
+   - Displays the current available balance.
 **Exit**:
 
-   -Exits the application.
+   - Exits the application.
 
 ## File Structure
 
-  -balance.json: Stores the current balance.
+  - balance.json: Stores the current balance.
   
-  -spending/: Directory that contains JSON files, each representing a day's expenses.
+  - spending/: Directory that contains JSON files, each representing a day's expenses.
 
