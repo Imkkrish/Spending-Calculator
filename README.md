@@ -12,7 +12,7 @@ Spending Calculator is a Python application that helps you manage your expenses 
 
 ## Requirements
 
-- Python 3.x
+- Python 3.9
 
 ## Setup
 
